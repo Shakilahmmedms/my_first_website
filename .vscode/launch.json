@@ -5,17 +5,29 @@
     "version": "0.2.0",
     "configurations": [
         {
+<<<<<<< HEAD
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+=======
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
             "url": "http://localhost:8080",
+>>>>>>> 06b84516862720f11aea6b197fa880ad25345188
             "webRoot": "${workspaceFolder}"
         },
         {
             "type": "pwa-chrome",
             "request": "launch",
+<<<<<<< HEAD
+            "name": "Open index.html",
+            "file": "c:\\Web Devolopment\\my_first_website\\index.html"
+=======
             "name": "Open home.html",
             "file": "c:\\Web Devolopment\\my_first_website\\home.html"
+>>>>>>> 06b84516862720f11aea6b197fa880ad25345188
         }
     ]
 }
